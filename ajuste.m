@@ -31,14 +31,6 @@ file_vds_id_4 = 'sim_salida_vgs4.csv';
 file_vds_id_5 = 'sim_salida_vgs5.csv';
 file_vds_id_6 = 'sim_salida_vgs6.csv';
 
-
-
-
-
-
-
-
-
 vgs_list = dlmread(file_vgs_list, delimiter, 1, 0);
 vds_id_1 = dlmread(file_vds_id_1, delimiter, 2, 0);
 vds_id_2 = dlmread(file_vds_id_2, delimiter, 2, 0);
@@ -72,7 +64,7 @@ function id = id_mosfet(vgs, vds, k, vt, lambda_)
   id_corte = 0.0;
   id_triodo = 2.0 * k * (vgs - vt - vds/2.0) * vds * (1.0 + lambda_ * vds);
   #id_sat = k * ((vgs-vt)**2.0) * (1.0 + lambda_ * vds);
-  id_sat = k * (power(vgs-vt, 2)) * (1.0 + lambda_ * vds);
+  id_sat = k * (power(vgs-vt, 2.0)) * (1.0 + lambda_ * vds);
 
   if vgs <= vt
     id = id_corte;

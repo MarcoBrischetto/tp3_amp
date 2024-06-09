@@ -1,0 +1,21 @@
+Circuit: * C:\Users\PC\Desktop\MATERIAS FIUBA\Introduccion a los dispositivos electronicos\tp3_amp\spice\my_mos.asc
+
+
+Date: Sat Jun  8 12:07:14 2024
+Total elapsed time: 0.057 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 1804
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 4
+fillins = 0
+solver = Normal
+Avg thread counts: 1.4/0.0/1.7/1.4
+Matrix Compiler1:       7 opcodes  0.1/[0.1]/0.1
+Matrix Compiler2: off  [0.1]/0.2/0.1
+
