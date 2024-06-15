@@ -1,26 +1,26 @@
 Circuit: * C:\Users\PC\Desktop\MATERIAS FIUBA\Introduccion a los dispositivos electronicos\tp3_amp\spice\pruebas_amps.asc
 
-WARNING: Node VO3 is floating.
+WARNING: Node N005 is floating.
 
-WARNING: Less than two connections to node vo3.  This node is used by c5.
-WARNING: Less than two connections to node nc_01.  This node is used by r12.
+WARNING: Less than two connections to node n005.  This node is used by c7.
+WARNING: Less than two connections to node nc_01.  This node is used by r18.
 Direct Newton iteration for .op point succeeded.
 
-Date: Wed Jun 12 17:24:52 2024
-Total elapsed time: 0.365 seconds.
+Date: Sat Jun 15 12:07:52 2024
+Total elapsed time: 1.717 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 103952
-traniter = 103944
-tranpoints = 40410
-accept = 24319
-rejected = 16091
-matrix size = 23
+totiter = 404073
+traniter = 404068
+tranpoints = 202025
+accept = 202024
+rejected = 1
+matrix size = 40
 fillins = 0
 solver = Normal
 Avg thread counts: 1.0/1.0/1.0/1.0
-Matrix Compiler1: 726 bytes object code size  0.3/0.2/[0.2]
-Matrix Compiler2: 1.50 KB object code size  0.5/0.3/[0.2]
+Matrix Compiler1: 1.37 KB object code size  0.8/0.5/[0.3]
+Matrix Compiler2: 2.65 KB object code size  3.4/0.7/[0.3]
 
