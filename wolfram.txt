@@ -1,0 +1,1 @@
+https://www.wolframalpha.com/input?i2d=true&i=x*12-Sqrt%5Bx%5D*%5C%2840%29-2*Sqrt%5B2.1%5D*Divide%5B12*8%2C12%2B8%5D*0.1-Divide%5B1%2CSqrt%5B2.1%5D%5D%5C%2841%29-9%3D0&lang=es
